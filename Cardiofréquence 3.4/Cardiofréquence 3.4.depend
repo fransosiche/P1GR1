@@ -181,3 +181,75 @@
 	"menu.h"
 	"donnees.h"
 
+1510845471 source:c:\users\fransosiche\documents\github\p1gr1\cardiofréquence 3.4\actions.c
+	<stdio.h>
+	<stdlib.h>
+	"actions.h"
+	"donnees.h"
+
+1510845118 c:\users\fransosiche\documents\github\p1gr1\cardiofréquence 3.4\actions.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"donnees.h"
+
+1510839454 c:\users\fransosiche\documents\github\p1gr1\cardiofréquence 3.4\donnees.h
+	<stdio.h>
+	<stdlib.h>
+
+1510839454 source:c:\users\fransosiche\documents\github\p1gr1\cardiofréquence 3.4\donnees.c
+	<stdio.h>
+	<stdlib.h>
+	"donnees.h"
+	"string.h"
+
+1510839454 source:c:\users\fransosiche\documents\github\p1gr1\cardiofréquence 3.4\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1510846862 source:c:\users\fransosiche\documents\github\p1gr1\cardiofréquence 3.4\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"donnees.h"
+
+1510839454 c:\users\fransosiche\documents\github\p1gr1\cardiofréquence 3.4\menu.h
+	<stdio.h>
+	<stdlib.h>
+
+1510856427 source:f:\users\fransosiche\desktop\p1gr1\cardiofréquence 3.4\actions.c
+	<stdio.h>
+	<stdlib.h>
+	"actions.h"
+	"donnees.h"
+
+1510856242 f:\users\fransosiche\desktop\p1gr1\cardiofréquence 3.4\actions.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"donnees.h"
+
+1510839456 f:\users\fransosiche\desktop\p1gr1\cardiofréquence 3.4\donnees.h
+	<stdio.h>
+	<stdlib.h>
+
+1510839456 source:f:\users\fransosiche\desktop\p1gr1\cardiofréquence 3.4\donnees.c
+	<stdio.h>
+	<stdlib.h>
+	"donnees.h"
+	"string.h"
+
+1510839456 source:f:\users\fransosiche\desktop\p1gr1\cardiofréquence 3.4\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1510856544 source:f:\users\fransosiche\desktop\p1gr1\cardiofréquence 3.4\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"donnees.h"
+
+1510839456 f:\users\fransosiche\desktop\p1gr1\cardiofréquence 3.4\menu.h
+	<stdio.h>
+	<stdlib.h>
+
