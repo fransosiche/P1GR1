@@ -1,19 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define TAILLE_MAX 10
+#define TAILLE_MAX 10 // Tableau de taille 60, car chaque case = 1 seconde
 #include "donnees.h"
 
 
-int OuvertureFichier(Element *listelem, Liste *maListe)
+int OuvertureFichier()
 {
-
-    FILE* fichier = NULL;
-    char chaine[TAILLE_MAX] = "", temp[TAILLE_MAX] = ""; // Chaîne vide de TAILLE_MAX
+    FILE* fichier = NULL; // le pointeur du fichier est initialisé à null
+    char chaine[TAILLE_MAX] = "", temp[TAILLE_MAX] = "", Pointeur[TAILLE_MAX] = ""; // Chaîne vide de TAILLE_MAX
     int i; // On intègre une valeur d'itération pour afficher tout le tableau
     int etat = 0, compteur = 0;
-    int poul;
-    int time;
+    int actuel = 0;
+    int actuelv2 = 0;
+    int ii, j, debut, tab[TAILLE_MAX];
 
+    fichier = fopen("battements.csv", "r");
     printf("\n");
 
         fichier = fopen("battements.csv", "r");
@@ -30,11 +31,11 @@ int OuvertureFichier(Element *listelem, Liste *maListe)
             if(strcmp(chaine, temp) != 0){
             for(i=0; i<TAILLE_MAX; i++){
                     temp[i] = chaine[i];
+                    sscanf(chaine, "%d;%d", &temps, &poul);
+                    printf("%d", temps, poul);
             }
 
-            sscanf(chaine, "%d;%d", &time, &poul);
-            printf("TIME : %d\nPOUL : %d \n", time, poul);
-            insertion(&maListe, time, poul);
+
 
                 compteur = compteur + 1;
 
@@ -52,62 +53,11 @@ int OuvertureFichier(Element *listelem, Liste *maListe)
 
         printf("Nombre de valeur(s) = %d\n", compteur);
 
-        afficherListe(maListe);
+
         fclose(fichier);
+
 
 return 0;
 }
 
 
-
-Liste *initialisation()
-{
-    Liste *liste = malloc(sizeof(*liste));
-    Element *element = malloc(sizeof(*element));
-
-    if (liste == NULL || element == NULL)
-    {
-        exit(EXIT_FAILURE);
-    }
-
-    element->poul = 0;
-    element->time = 0;
-    element->suivant = NULL;
-    liste->premier = element;
-
-    return liste;
-}
-
-void insertion(Liste *liste, int nouveauPoul, int nouveauTime)
-{
-    /* Création du nouvel élément */
-    Element *nouveau = malloc(sizeof(*nouveau));
-    if (liste == NULL || nouveau == NULL)
-    {
-        exit(EXIT_FAILURE);
-    }
-    nouveau->poul = nouveauPoul;
-    nouveau->time = nouveauTime;
-
-    /* Insertion de l'élément au début de la liste */
-    nouveau->suivant = liste->premier;
-    liste->premier = nouveau;
-}
-
-
-void afficherListe(Liste *liste)
-{
-    if (liste == NULL)
-    {
-        exit(EXIT_FAILURE);
-    }
-
-    Element *actuel = liste->premier;
-
-    while ((actuel->poul < 1000) || (actuel->poul == NULL))
-    {
-        printf("%d -> ", actuel->poul);
-        actuel = actuel->suivant;
-    }
-    printf("NULL\n");
-}

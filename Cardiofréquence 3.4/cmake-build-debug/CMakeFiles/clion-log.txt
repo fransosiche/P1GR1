@@ -1,0 +1,64 @@
+"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Fransosiche\Desktop\Cardiofréquence 3.4"
+-- The C compiler identification is GNU 6.3.0
+-- The CXX compiler identification is GNU 6.3.0
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe -- broken
+CMake Error at C:/Program Files/JetBrains/CLion 2017.2.3/bin/cmake/share/cmake-3.8/Modules/CMakeTestCCompiler.cmake:51 (message):
+  The C compiler "C:/MinGW/bin/gcc.exe" is not able to compile a simple test
+  program.
+
+  It fails with the following output:
+
+   Change Dir: C:/Users/Fransosiche/Desktop/CardiofrÃ©quence 3.4/cmake-build-debug/CMakeFiles/CMakeTmp
+
+  
+
+  Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_f736f/fast"
+
+  C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f736f.dir\build.make
+  CMakeFiles/cmTC_f736f.dir/build
+
+  mingw32-make.exe[1]: Entering directory
+  'C:/Users/Fransosiche/Desktop/CardiofrÃšquence
+  3.4/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+  Building C object CMakeFiles/cmTC_f736f.dir/testCCompiler.c.obj
+
+  C:\MinGW\bin\gcc.exe -o CMakeFiles\cmTC_f736f.dir\testCCompiler.c.obj -c
+  "C:\Users\Fransosiche\Desktop\Cardiofrâ”œÂ®quence
+  3.4\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+
+  gcc.exe: error: C:\Users\Fransosiche\Desktop\Cardiofr+Â«quence
+  3.4\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or
+  directory
+
+  gcc.exe: fatal error: no input files
+
+  compilation terminated.
+
+  CMakeFiles\cmTC_f736f.dir\build.make:64: recipe for target
+  'CMakeFiles/cmTC_f736f.dir/testCCompiler.c.obj' failed
+
+  mingw32-make.exe[1]: *** [CMakeFiles/cmTC_f736f.dir/testCCompiler.c.obj]
+  Error 1
+
+  mingw32-make.exe[1]: Leaving directory
+  'C:/Users/Fransosiche/Desktop/CardiofrÃšquence
+  3.4/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+  Makefile:125: recipe for target 'cmTC_f736f/fast' failed
+
+  mingw32-make.exe: *** [cmTC_f736f/fast] Error 2
+
+  
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Fransosiche/Desktop/CardiofrÃ©quence 3.4/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/Fransosiche/Desktop/CardiofrÃ©quence 3.4/cmake-build-debug/CMakeFiles/CMakeError.log".

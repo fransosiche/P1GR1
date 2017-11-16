@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "menu.h"
 #include "donnees.h"
 
 int main()
 {
-    Liste *maListe = NULL;
-    maListe = initialisation();
     int choix;
-    Menu_De_Base(choix, maListe);
+   // printf("%d", Menu_De_Base(choix));
+    OuvertureFichier();
     return 0;
 }

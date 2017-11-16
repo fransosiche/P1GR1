@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "menu.h"
-#define TAILLE_MAX 10
+
 
 int Menu_De_Base(int choix)
-
 {
     int i;
     int choix2;
 
     do
     {
-    printf("Bienvenue dans la console ! \n\n");
+    printf("Bienvenue dans la console lolilol la console ! \n\n");
     printf("Veuillez taper ce que vous voulez effectuer s'il vous plait ! \n\n");
     printf("1) Afficher les donnees dans l'ordre du temps\n");
     printf("------------------------------------------------------------------\n");
@@ -42,11 +41,7 @@ int Menu_De_Base(int choix)
 
             case 2 :
 
-
                 printf("Vous avez choisi le tri est l'affichage par ordre croissant\n");
-
-                TriCroissant();
-
 
                 printf("\n\n");
                 break;
@@ -89,14 +84,18 @@ int Menu_De_Base(int choix)
         printf("Veuillez taper 2 pour retounez au menu\n");
 
 
-        scanf("%d", &choix2);
 
-        if(choix2 = 2){
-            Menu_De_Base(choix);
-            printf("\n");
+        scanf("%d", &choix2);
+        if(choix2 == 1){
+        exit(0);
+        } else {
+        Menu_De_Base(choix);
+        printf("\n");
         }
 
-        exit(0);
-        return EXIT_FAILURE;
 
+
+
+
+    return 0;
 }

@@ -1,25 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
+#ifndef __LIST__H__
+#define __LIST__H__
+#endif
 
-typedef struct Element Element;
-struct Element
+typedef struct variable
 {
-    int poul;
+    int pouls;
     int time;
-    struct Element *suivant;
-};
+}var;
 
-typedef struct Liste Liste;
-struct Liste
+
+typedef struct file
 {
-    Element *premier;
-};
+    struct var *etatsuivant;
+    struct file *suivant;
+} File;
 
+void file_enqueue(File **p_file, struct variable var);
 
-int OuvertureFichier(Element *listelem, Liste *maListe);
+void file_dequeue(File **p_file);
 
-Liste *initialisation();
-
-void insertion(Liste *liste, int nouveauPoul, int nouveauTime);
-
-void afficherListe(Liste *liste);
