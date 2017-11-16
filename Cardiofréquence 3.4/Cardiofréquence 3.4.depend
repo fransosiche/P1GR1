@@ -1,25 +1,31 @@
 # depslib dependency file v1.0
-1510561803 source:c:\users\fransosiche\desktop\cardiofréquence 3.4\actions.c
+1510818286 source:c:\users\fransosiche\desktop\cardiofréquence 3.4\actions.c
+	<stdio.h>
+	<stdlib.h>
+	"actions.h"
+	"donnees.h"
+
+1510822245 source:c:\users\fransosiche\desktop\cardiofréquence 3.4\donnees.c
+	<stdio.h>
+	<stdlib.h>
+	"donnees.h"
+	"string.h"
+
+1510821698 source:c:\users\fransosiche\desktop\cardiofréquence 3.4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"donnees.h"
+	"menu.h"
+
+1510821732 c:\users\fransosiche\desktop\cardiofréquence 3.4\menu.h
 	<stdio.h>
 	<stdlib.h>
 
-1510572610 source:c:\users\fransosiche\desktop\cardiofréquence 3.4\donnees.c
-	<stdio.h>
-	<stdlib.h>
-
-1510573687 source:c:\users\fransosiche\desktop\cardiofréquence 3.4\main.c
+1510822256 source:c:\users\fransosiche\desktop\cardiofréquence 3.4\menu.c
 	<stdio.h>
 	<stdlib.h>
 	"menu.h"
-
-1510573381 c:\users\fransosiche\desktop\cardiofréquence 3.4\menu.h
-	<stdio.h>
-	<stdlib.h>
-
-1510577426 source:c:\users\fransosiche\desktop\cardiofréquence 3.4\menu.c
-	<stdio.h>
-	<stdlib.h>
-	"menu.h"
+	"donnees.h"
 
 1510578483 source:c:\users\ben\projet1\cardiofréquence 3.4\actions.c
 	<stdio.h>
@@ -43,13 +49,14 @@
 	<stdlib.h>
 	"menu.h"
 
-1510646813 source:c:\users\fransosiche\projet1coeurgroupe1\cardiofréquence 3.4\actions.c
+1510732868 source:c:\users\fransosiche\projet1coeurgroupe1\cardiofréquence 3.4\actions.c
 	<stdio.h>
 	<stdlib.h>
 
-1510653739 source:c:\users\fransosiche\projet1coeurgroupe1\cardiofréquence 3.4\donnees.c
+1510744679 source:c:\users\fransosiche\projet1coeurgroupe1\cardiofréquence 3.4\donnees.c
 	<stdio.h>
 	<stdlib.h>
+	"donnees.h"
 
 1510652616 source:c:\users\fransosiche\projet1coeurgroupe1\cardiofréquence 3.4\main.c
 	<stdio.h>
@@ -60,35 +67,117 @@
 	<stdio.h>
 	<stdlib.h>
 
-1510652566 source:c:\users\fransosiche\projet1coeurgroupe1\cardiofréquence 3.4\menu.c
+1510655720 source:c:\users\fransosiche\projet1coeurgroupe1\cardiofréquence 3.4\menu.c
 	<stdio.h>
 	<stdlib.h>
 	"menu.h"
 
-1510748649 source:c:\users\ben\desktop\cardiofréquence 3.4\main.c
+1510744608 c:\users\fransosiche\projet1coeurgroupe1\cardiofréquence 3.4\donnees.h
+	<stdio.h>
+
+1510821400 c:\users\fransosiche\desktop\cardiofréquence 3.4\donnees.h
+	<stdio.h>
+	<stdlib.h>
+
+1510784995 source:c:\users\ben\desktop\nouveau dossier (4)\cardiofréquence 3.4\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
+1510785015 c:\users\ben\desktop\nouveau dossier (4)\cardiofréquence 3.4\menu.h
+	<stdio.h>
+	<stdlib.h>
+
+1510817578 source:c:\users\ben\desktop\nouveau dossier (4)\cardiofréquence 3.4\actions.c
+	<stdio.h>
+	<stdlib.h>
+	"actions.h"
+
+1510817688 c:\users\ben\desktop\nouveau dossier (4)\cardiofréquence 3.4\donnees.h
+	<stdio.h>
+	<stdlib.h>
+
+1510784819 source:c:\users\ben\desktop\nouveau dossier (4)\cardiofréquence 3.4\donnees.c
+	<stdio.h>
+	<stdlib.h>
+	"donnees.h"
+
+1510784696 source:c:\users\ben\desktop\nouveau dossier (4)\cardiofréquence 3.4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"donnees.h"
+
+1510784894 c:\users\ben\desktop\nouveau dossier (4)\cardiofréquence 3.4\actions.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"donnees.h"
+
+1510818590 source:c:\users\ben\p1gr1\cardiofréquence 3.4\donnees.c
+	<stdio.h>
+	<stdlib.h>
+	"donnees.h"
+
+1510818973 c:\users\ben\p1gr1\cardiofréquence 3.4\donnees.h
+	<stdio.h>
+	<stdlib.h>
+
+1510784696 source:c:\users\ben\p1gr1\cardiofréquence 3.4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"donnees.h"
+
+1510818286 source:c:\users\ben\p1gr1\cardiofréquence 3.4\actions.c
+	<stdio.h>
+	<stdlib.h>
+	"actions.h"
+	"donnees.h"
+
+1510784894 c:\users\ben\p1gr1\cardiofréquence 3.4\actions.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"donnees.h"
+
+1510784894 c:\users\fransosiche\desktop\cardiofréquence 3.4\actions.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"donnees.h"
+
+1510834563 source:c:\users\ben\desktop\nouveau dossier (5)\cardiofréquence 3.4\actions.c
+	<stdio.h>
+	<stdlib.h>
+	"actions.h"
+	"donnees.h"
+
+1510832816 c:\users\ben\desktop\nouveau dossier (5)\cardiofréquence 3.4\actions.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"donnees.h"
+
+1510836003 c:\users\ben\desktop\nouveau dossier (5)\cardiofréquence 3.4\donnees.h
+	<stdio.h>
+	<stdlib.h>
+
+1510838060 source:c:\users\ben\desktop\nouveau dossier (5)\cardiofréquence 3.4\donnees.c
+	<stdio.h>
+	<stdlib.h>
+	"donnees.h"
+	"string.h"
+
+1510827293 source:c:\users\ben\desktop\nouveau dossier (5)\cardiofréquence 3.4\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1510821732 c:\users\ben\desktop\nouveau dossier (5)\cardiofréquence 3.4\menu.h
+	<stdio.h>
+	<stdlib.h>
+
+1510834563 source:c:\users\ben\desktop\nouveau dossier (5)\cardiofréquence 3.4\menu.c
 	<stdio.h>
 	<stdlib.h>
 	"menu.h"
 	"donnees.h"
-
-1510653430 c:\users\ben\desktop\cardiofréquence 3.4\menu.h
-	<stdio.h>
-	<stdlib.h>
-
-1510668028 source:c:\users\ben\desktop\cardiofréquence 3.4\actions.c
-	<stdio.h>
-	<stdlib.h>
-
-1510752612 source:c:\users\ben\desktop\cardiofréquence 3.4\donnees.c
-	<stdio.h>
-	<stdlib.h>
-	"donnees.h"
-
-1510750579 c:\users\ben\desktop\cardiofréquence 3.4\donnees.h
-	<stdio.h>
-
-1510668266 source:c:\users\ben\desktop\cardiofréquence 3.4\menu.c
-	<stdio.h>
-	<stdlib.h>
-	"menu.h"
 

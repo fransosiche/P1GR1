@@ -2,4 +2,10 @@
 #include <stdlib.h>
 
 
-int Menu_De_Base(int choix);
+typedef enum
+	{
+		false,
+		true
+	}Bool;
+
+int Menu_De_Base();

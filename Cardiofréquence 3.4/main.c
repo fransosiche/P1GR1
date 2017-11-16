@@ -1,12 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "menu.h"
-#include "donnees.h"
 
 int main()
 {
-    int choix;
-   // printf("%d", Menu_De_Base(choix));
-    OuvertureFichier();
+    Menu_De_Base();
     return 0;
 }

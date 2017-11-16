@@ -1,22 +1,31 @@
+#ifndef DONNEES_H
+#define DONNEES_H
 #include <stdio.h>
-#ifndef __LIST__H__
-#define __LIST__H__
-#endif
+#include <stdlib.h>
 
-typedef struct variable
+int compteur;
+
+typedef struct Element Element;
+struct Element
 {
-    int pouls;
+    int poul;
     int time;
-}var;
+    struct Element *suivant;
+};
 
 
-typedef struct file
+typedef struct Liste Liste;
+struct Liste
 {
-    struct var *etatsuivant;
-    struct file *suivant;
-} File;
+    Element *premier;
+};
 
-void file_enqueue(File **p_file, struct variable var);
 
-void file_dequeue(File **p_file);
+Liste* OuvertureFichier();
 
+Liste *initialisation();
+
+void insertion(Liste *liste, int nouveauPoul, int nouveauTime);
+
+void afficherListe(Liste *liste);
+#endif // DONNES_H
