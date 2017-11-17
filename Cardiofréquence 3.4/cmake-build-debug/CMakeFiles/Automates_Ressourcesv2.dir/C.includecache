@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Fransosiche/Desktop/Automates Ressourcesv2/actions.c
+actions.h
+C:/Users/Fransosiche/Desktop/Automates Ressourcesv2/actions.h
+
+C:/Users/Fransosiche/Desktop/Automates Ressourcesv2/actions.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+C:/Users/Fransosiche/Desktop/Automates Ressourcesv2/entreeSortie.c
+entreeSortie.h
+C:/Users/Fransosiche/Desktop/Automates Ressourcesv2/entreeSortie.h
+
+C:/Users/Fransosiche/Desktop/Automates Ressourcesv2/entreeSortie.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+C:/Users/Fransosiche/Desktop/Automates Ressourcesv2/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+actions.h
+C:/Users/Fransosiche/Desktop/Automates Ressourcesv2/actions.h
+entreeSortie.h
+C:/Users/Fransosiche/Desktop/Automates Ressourcesv2/entreeSortie.h
+
